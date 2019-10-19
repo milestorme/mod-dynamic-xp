@@ -27,28 +27,28 @@ class spp_dynamic_xp_rate : public PlayerScript
         
 	   {
             if (player->getLevel() >= 1)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.1-9", 1), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.1-9", 1);
 
             if (player->getLevel() >= 10)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.10-19", 2), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.10-19", 2);
 
             if (player->getLevel() >= 20)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.20-29", 3), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.20-29", 3);
 
             if (player->getLevel() >= 30)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.30-39", 4), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.30-39", 4);
 
             if (player->getLevel() >= 40)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.40-49", 5), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.40-49", 5);
 
             if (player->getLevel() >= 50)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.50-59", 6), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.50-59", 6);
 
             if (player->getLevel() >= 60)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.60-69", 7), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.60-69", 7);
 
             if (player->getLevel() >= 70)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.70-79", 8), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.70-79", 8);
         }
 
      }
@@ -57,28 +57,28 @@ class spp_dynamic_xp_rate : public PlayerScript
         if (sConfigMgr->GetBoolDefault("Dynamic.XP.Rate", true))
         {
             if (player->getLevel() >= 1)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.1-9", 1), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.1-9", 1);
 
             if (player->getLevel() >= 10)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.10-19", 2), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.10-19", 2);
 
             if (player->getLevel() >= 20)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.20-29", 3), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.20-29", 3);
 
             if (player->getLevel() >= 30)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.30-39", 4), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.30-39", 4);
 
             if (player->getLevel() >= 40)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.40-49", 5), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.40-49", 5);
 
             if (player->getLevel() >= 50)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.50-59", 6), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.50-59", 6);
 
             if (player->getLevel() >= 60)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.60-69", 7), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.60-69", 7);
 
             if (player->getLevel() >= 70)
-                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.70-79", 8), 0);
+                player->GiveXP(sConfigMgr->GetIntDefault("Dynamic.XP.Rate.70-79", 8);
 
         }
     }
