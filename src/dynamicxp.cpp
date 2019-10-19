@@ -21,7 +21,7 @@ class spp_dynamic_xp_rate : public PlayerScript
                ChatHandler(player->GetSession()).SendSysMessage("This server is running the |cff4CFF00Level Dynamic XP |rmodule.");
                }
        }
-        void OnGiveXP(Player* player, uint32& amount, Unit* /*victim*/) override
+        void OnGiveXP(Player* player, uint32& /*amount*/, Unit* /*victim*/) override
        {
         if (sConfigMgr->GetBoolDefault("Dynamic.XP.Rate", true))
         
