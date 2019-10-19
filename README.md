@@ -1,5 +1,5 @@
-## Mod Dynamic XP 
+## Item Upgrade 
 
-### Credits
-- Micrah/Milestorme: Module Creator/ Script Update (https://github.com/milestorme).
-- Conanhun Script (https://github.com/conan513).
+#Credits
+-Micrah/Milestorme: Module Creator(https://github.com/milestorme)
+-Heitx: (http://www.ac-web.org/forums/member.php?332424-Heitx)
