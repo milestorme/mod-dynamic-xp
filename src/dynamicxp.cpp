@@ -52,7 +52,7 @@ class spp_dynamic_xp_rate : public PlayerScript
         }
 
      }
-    void OnLevelChanged(Player * player, uint8 oldLevel) override
+    void OnLevelChanged(Player * player, uint8 /*oldLevel*/) override
     {
         if (sConfigMgr->GetBoolDefault("Dynamic.XP.Rate", true))
         {
