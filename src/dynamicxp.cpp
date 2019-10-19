@@ -9,7 +9,6 @@ Original Script from AshmaneCore https://github.com/conan513 Single Player Proje
 #include "Player.h"
 #include "Chat.h"
 
-float amount;
 
 class spp_dynamic_xp_rate : public PlayerScript
 {
@@ -29,62 +28,33 @@ class spp_dynamic_xp_rate : public PlayerScript
         
 	   {
            if (player->getLevel() >= 1)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.1-9", 10.0f);
+            amount *= sConfigMgr->GetIntDefault("Dynamic.XP.Rate.1-9", 10);
 
-           if (player->getLevel() >= 10)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.10-19", 20.0f);
+           else if (player->getLevel() >= 10)
+            amount *= sConfigMgr->GetIntDefault("Dynamic.XP.Rate.10-19", 9);
 
-           if (player->getLevel() >= 20)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.20-29", 30.0f);
+           else if (player->getLevel() >= 20)
+            amount *= sConfigMgr->GetIntDefault("Dynamic.XP.Rate.20-29", 8);
 
-           if (player->getLevel() >= 30)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.30-39", 40.0f);
+           else if (player->getLevel() >= 30)
+            amount *= sConfigMgr->GetIntDefault("Dynamic.XP.Rate.30-39", 7);
 
-           if (player->getLevel() >= 40)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.40-49", 50.0f);
+           else if (player->getLevel() >= 40)
+            amount *= sConfigMgr->GetIntDefault("Dynamic.XP.Rate.40-49", 6);
 
-           if (player->getLevel() >= 50)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.50-59", 60.0f);
-           
-           if (player->getLevel() >= 60)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.60-69", 70.0f);
+           else if (player->getLevel() >= 50)
+            amount *= sConfigMgr->GetIntDefault("Dynamic.XP.Rate.50-59", 5);
 
-           if (player->getLevel() >= 70)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.70-79", 80.0f);
+           else if (player->getLevel() >= 60)
+            amount *= sConfigMgr->GetIntDefault("Dynamic.XP.Rate.60-69", 4);
+
+           else if (player->getLevel() >= 70)
+            amount *= sConfigMgr->GetIntDefault("Dynamic.XP.Rate.70-79", 3);
+
         }
 
      }
-    void OnLevelChanged(Player * player, uint8 /*oldLevel*/) override
-    {
-        if (sConfigMgr->GetBoolDefault("Dynamic.XP.Rate", true))
-        {
-           if (player->getLevel() >= 1)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.1-9", 10.0f);
-
-           if (player->getLevel() >= 10)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.10-19", 20.0f);
-
-           if (player->getLevel() >= 20)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.20-29", 30.0f);
-
-           if (player->getLevel() >= 30)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.30-39", 40.0f);
-
-           if (player->getLevel() >= 40)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.40-49", 50.0f);
-
-           if (player->getLevel() >= 50)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.50-59", 60.0f);
-           
-           if (player->getLevel() >= 60)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.60-69", 70.0f);
-
-           if (player->getLevel() >= 70)
-            amount *= sConfigMgr->GetFloatDefault("Dynamic.XP.Rate.70-79", 80.0f);
-
-        }
-           
-    }
+    
 };
 
 void AddSC_dynamic_xp_rate()
