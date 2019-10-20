@@ -18,7 +18,9 @@
 
  `  Dynamic.XP.Rate.60-69 = 7`
 
-### Credits
+`   Dynamic.XP.Rate.70-79 = 8`
+
+###Credits
 - Micrah/Milestorme: Module Creator / Script Rework (https://github.com/milestorme).
 - Poszer Script Support (https://github.com/poszer) 
 - Conan513 Original Script from AshmaneCore (https://github.com/conan513).
