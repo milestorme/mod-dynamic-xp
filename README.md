@@ -1,5 +1,5 @@
 # Dynamic XP
-- Latest build status with azerothcore: [![Build Status](https://travis-ci.org/milestorme/mod-dynamic-xp.svg?branch=master)](https://travis-ci.com/milestorme/mod-dynamic-xp)
+- Latest build status with azerothcore: [![Build Status](https://travis-ci.com/milestorme/mod-dynamic-xp.svg?branch=master)](https://travis-ci.com/milestorme/mod-dynamic-xp)
 
 ## Description
 - Set xp per level range e.g in dynamicxp.conf.
