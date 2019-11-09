@@ -1,9 +1,9 @@
 # Dynamic XP
 - Latest build status with azerothcore: [![Build Status](https://travis-ci.com/milestorme/mod-dynamic-xp.svg?branch=master)](https://travis-ci.com/milestorme/mod-dynamic-xp)
 
+
 ## Description
 Set xp per level range e.g in dynamicxp.conf.
-
 
 ## Features
 ```
@@ -17,17 +17,7 @@ Set xp per level range e.g in dynamicxp.conf.
 *   Dynamic.XP.Rate.70-79 = 8.0
 ```
 
-
-## Installation
-
-```
-1. Simply place the module under the `modules` directory of your AzerothCore source. 
-2. Import the SQL manually to the right Database (world).
-3. Re-run cmake and launch a clean build of AzerothCore.
-```
-
-
 ## Credits
-- [Micrah/Milestorme: Script/Module Creator](https://github.com/milestorme).
-- [Poszer: Script Support](https://github.com/poszer) 
-- [Conan513: Original Script from AshmaneCore](https://github.com/conan513).
+* [Micrah/Milestorme: Script/Module Creator](https://github.com/milestorme).
+* [Poszer: Script Support](https://github.com/poszer) 
+* [Conan513: Original Script from AshmaneCore](https://github.com/conan513).
