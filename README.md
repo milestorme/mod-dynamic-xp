@@ -29,5 +29,5 @@ Set xp per level range e.g in dynamicxp.conf.
 
 ## Credits
 - [Micrah/Milestorme: Script/Module Creator](https://github.com/milestorme).
-- [Poszer: Script Support] (https://github.com/poszer) 
-- [Conan513: Original Script from AshmaneCore] (https://github.com/conan513).
+- [Poszer: Script Support](https://github.com/poszer) 
+- [Conan513: Original Script from AshmaneCore](https://github.com/conan513).
